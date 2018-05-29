@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+apply plugin: "coco"
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.coco.coco_master"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+
+dependencies {
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    compile 'org.aspectj:aspectjrt:1.8.6'
+    implementation project(':coco-annotation')
+    implementation project(':coco-runtime')
+    //implementation project(':buildSrc')
+    // androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    //androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

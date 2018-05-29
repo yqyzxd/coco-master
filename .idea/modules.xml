@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coco-plugin/buildSrc.iml" filepath="$PROJECT_DIR$/coco-plugin/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coco-annotation/coco-annotation.iml" filepath="$PROJECT_DIR$/coco-annotation/coco-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coco-master.iml" filepath="$PROJECT_DIR$/coco-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coco-plugin/coco-plugin.iml" filepath="$PROJECT_DIR$/coco-plugin/coco-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/coco-plugin.iml" filepath="$PROJECT_DIR$/buildSrc/coco-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coco-runtime/coco-runtime.iml" filepath="$PROJECT_DIR$/coco-runtime/coco-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statistics-lib/statistics-lib.iml" filepath="$PROJECT_DIR$/statistics-lib/statistics-lib.iml" />
+    </modules>
+  </component>
+</project>

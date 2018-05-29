@@ -1,0 +1,1 @@
+include ':app', ':coco-annotation', ':coco-plugin', ':coco-runtime', ':statistics-lib'
